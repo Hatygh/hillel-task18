@@ -7,6 +7,9 @@
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/barryvdh/laravel-debugbar" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/dnoegel/php-xdg-base-dir" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/doctrine/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/doctrine/dbal" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/doctrine/event-manager" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/doctrine/inflector" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/doctrine/instantiator" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/doctrine/lexer" />

@@ -13,20 +13,20 @@
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('blog.index');
 
 Route::get('/contact', function () {
     return view('contact');
-});
+})->name('blog.contact');
 
 Route::get('/about-us', function () {
     return view('about');
-});
+})->name('blog.about');
 
 Route::get('/blog', function () {
     return view('blog');
-});
+})->name('blog.blog');
 
 Route::get('/post', function () {
     return view('post');
-});
+})->name('blog.post');

@@ -67,7 +67,7 @@
             <div class="row">
                 <div class="col-12">
                     <!-- Nav brand -->
-                    <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
+                    <a href="{{  route("blog.index") }}" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
                 </div>
             </div>
         </div>
@@ -81,7 +81,7 @@
                 <nav class="classy-navbar" id="foodeNav">
 
                     <!-- Nav brand -->
-                    <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
+                    <a href="{{  route("blog.index") }}" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
 
                     <!-- Navbar Toggler -->
                     <div class="classy-navbar-toggler">
@@ -99,72 +99,23 @@
                         <!-- Nav Start -->
                         <div class="classynav">
                             <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="#">Pages</a>
+                                <li><a href="{{  route("blog.index") }}">Home</a></li>
+                                <li><a href="{{  route("blog.blog") }}">Blog</a>
                                     <ul class="dropdown">
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="archive-blog.html">Archive Blog</a></li>
-                                        <li><a href="single-post.html">Single Post</a></li>
-                                        <li><a href="about-us.html">About</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="typography.html">Typography</a></li>
+                                        <li><a href="#">Features</a></li>
+                                        <li><a href="#">Food</a></li>
+                                        <li><a href="#">Travel</a></li>
+                                        <li><a href="#">Recipe</a></li>
+                                        <li><a href="#">Bread</a></li>
+                                        <li><a href="#">Breakfast</a></li>
+                                        <li><a href="#">Meat</a></li>
+                                        <li><a href="#">Fastfood</a></li>
+                                        <li><a href="#">Salad</a></li>
+                                        <li><a href="#">Soup</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#">Catagories</a>
-                                    <div class="megamenu">
-                                        <ul class="single-mega cn-col-4">
-                                            <li><a href="#">- Features</a></li>
-                                            <li><a href="#">- Food</a></li>
-                                            <li><a href="#">- Travel</a></li>
-                                            <li><a href="#">- Recipe</a></li>
-                                            <li><a href="#">- Bread</a></li>
-                                            <li><a href="#">- Breakfast</a></li>
-                                            <li><a href="#">- Meat</a></li>
-                                            <li><a href="#">- Fastfood</a></li>
-                                            <li><a href="#">- Salad</a></li>
-                                            <li><a href="#">- Soup</a></li>
-                                        </ul>
-                                        <ul class="single-mega cn-col-4">
-                                            <li><a href="#">- Features</a></li>
-                                            <li><a href="#">- Food</a></li>
-                                            <li><a href="#">- Travel</a></li>
-                                            <li><a href="#">- Recipe</a></li>
-                                            <li><a href="#">- Bread</a></li>
-                                            <li><a href="#">- Breakfast</a></li>
-                                            <li><a href="#">- Meat</a></li>
-                                            <li><a href="#">- Fastfood</a></li>
-                                            <li><a href="#">- Salad</a></li>
-                                            <li><a href="#">- Soup</a></li>
-                                        </ul>
-                                        <ul class="single-mega cn-col-4">
-                                            <li><a href="#">- Features</a></li>
-                                            <li><a href="#">- Food</a></li>
-                                            <li><a href="#">- Travel</a></li>
-                                            <li><a href="#">- Recipe</a></li>
-                                            <li><a href="#">- Bread</a></li>
-                                            <li><a href="#">- Breakfast</a></li>
-                                            <li><a href="#">- Meat</a></li>
-                                            <li><a href="#">- Fastfood</a></li>
-                                            <li><a href="#">- Salad</a></li>
-                                            <li><a href="#">- Soup</a></li>
-                                        </ul>
-                                        <ul class="single-mega cn-col-4">
-                                            <li><a href="#">- Features</a></li>
-                                            <li><a href="#">- Food</a></li>
-                                            <li><a href="#">- Travel</a></li>
-                                            <li><a href="#">- Recipe</a></li>
-                                            <li><a href="#">- Bread</a></li>
-                                            <li><a href="#">- Breakfast</a></li>
-                                            <li><a href="#">- Meat</a></li>
-                                            <li><a href="#">- Fastfood</a></li>
-                                            <li><a href="#">- Salad</a></li>
-                                            <li><a href="#">- Soup</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li><a href="#">Travel</a></li>
-                                <li><a href="about-us.html">About</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="{{  route("blog.about") }}">About</a></li>
+                                <li><a href="{{  route("blog.contact") }}">Contact</a></li>
                             </ul>
 
                         </div>
@@ -179,62 +130,7 @@
 
 @yield('content')
 
-<!-- ##### Instagram Area Start ##### -->
-<div class="follow-us-instagram">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="section-heading">
-                    <h2>Follow Us On Instagram</h2>
-                    <span>@foodeblog</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-12">
-                <div class="instagram-slides owl-carousel">
-                    <!-- Single Instagram Slide -->
-                    <div class="single-instagram-slide">
-                        <img src="img/blog-img/insta1.jpg" alt="">
-                        <a href="#"><i class="fa fa-instagram"></i>Follow Me</a>
-                    </div>
-
-                    <!-- Single Instagram Slide -->
-                    <div class="single-instagram-slide">
-                        <img src="img/blog-img/insta2.jpg" alt="">
-                        <a href="#"><i class="fa fa-instagram"></i>Follow Me</a>
-                    </div>
-
-                    <!-- Single Instagram Slide -->
-                    <div class="single-instagram-slide">
-                        <img src="img/blog-img/insta3.jpg" alt="">
-                        <a href="#"><i class="fa fa-instagram"></i>Follow Me</a>
-                    </div>
-
-                    <!-- Single Instagram Slide -->
-                    <div class="single-instagram-slide">
-                        <img src="img/blog-img/insta4.jpg" alt="">
-                        <a href="#"><i class="fa fa-instagram"></i>Follow Me</a>
-                    </div>
-
-                    <!-- Single Instagram Slide -->
-                    <div class="single-instagram-slide">
-                        <img src="img/blog-img/insta5.jpg" alt="">
-                        <a href="#"><i class="fa fa-instagram"></i>Follow Me</a>
-                    </div>
-
-                    <!-- Single Instagram Slide -->
-                    <div class="single-instagram-slide">
-                        <img src="img/blog-img/insta6.jpg" alt="">
-                        <a href="#"><i class="fa fa-instagram"></i>Follow Me</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- ##### Instagram Area End ##### -->
+@include('instagram')
 
 <!-- ##### Footer Area Start ##### -->
 <footer class="footer-area">
